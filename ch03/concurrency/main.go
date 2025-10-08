@@ -69,8 +69,8 @@ func getVersion(r Router) {
 	}
 
 	fmt.Printf("Hostname: %s\nHardware: %s\nSW Version: %s\nUptime: %s\n\n",
-				r.Hostname, parsedOut[0]["HARDWARE"],
-				parsedOut[0]["VERSION"], parsedOut[0]["UPTIME"])
+		r.Hostname, parsedOut[0]["HARDWARE"],
+		parsedOut[0]["VERSION"], parsedOut[0]["UPTIME"])
 
 }
 
